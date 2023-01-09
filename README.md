@@ -1,0 +1,8 @@
+# CALCULATOR-PROJECT
+This code is a calculator program written in Python using the Tkinter library. It has a GUI interface that displays a calculator with a text field for input and buttons for various operations. The Calc class contains methods for performing arithmetic operations, displaying the input and result, and handling various other functionality such as clearing entries, taking the square root, and finding the cosine of an angle. The program also imports the math library, which is used in some of the methods.
+
+The Calc class has an init method that initializes several instance variables including total, current, input_value, check_sum, op, and result. The numberEnter method is used to update the current value when the user inputs a number. The total_sum method calculates the result of an operation and displays it in the text field. The display method is used to update the text field with a specified value. The Clear_Entry and All_Clear_Entry methods are used to reset the current value and total value, respectively. The backspace method removes the last character from the current value.
+
+The pi and e methods set the current value to the mathematical constants of pi and e, respectively. The mathPM method negates the current value. The squared method calculates the square root of the current value. The cos, cosh, tan, and tanh methods calculate the cosine, hyperbolic cosine, tangent, and hyperbolic tangent of the current value in radians.
+
+The final block of code creates the buttons for the calculator and specifies their position, text, and command. When the program is run, the calculator window is displayed and the user can interact with it to perform various calculations.
